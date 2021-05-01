@@ -13,7 +13,7 @@ class Landing extends Component {
                             className="avatar-img"
                         />
                         <div className="benner-text">
-                            <h1>Welcome to MyPage</h1>
+                            <h1>ようこそ MyPageへ</h1>
                             <hr />
                         </div>
                     </Cell>

@@ -1,9 +1,12 @@
 .header-color{
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-.landing-grid{
+
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+  .landing-grid{
        text-align: center;
   position: fixed;
   top: 0;
@@ -12,10 +15,9 @@
   height: 100;
 }
 .navi-grid{
-  background: #757F9A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .avater-img{
   height: 250px;
@@ -61,9 +63,14 @@ padding: 1em;
   margin-top: 10px;
 
 }
+
+
 .box {
   padding: 10px;
 
+}
+.contact-body{
+  grid-gap:100px;
 }
 
 
@@ -92,13 +99,19 @@ padding: 1em;
 
 /*Resume Page Css*/
 .resume-right-col{
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  border-radius: 10px;
-
-  color:white;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     color:white;
   padding:2em;
 }
 
+/*Modal*/
+.modal{
+  background: white;  /* fallback for old browsers */
+
+  border-radius: 10px;
+
+  color:black;
+  padding:2em;
+}
