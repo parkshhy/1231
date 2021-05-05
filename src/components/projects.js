@@ -275,7 +275,7 @@ class Projects extends Component {
 
                             プロジェクト 期間 : 2016.9~2016.10<br /><br />
                             プロジェクト 内容 : スポーツサイト<br /><br />
-                            言語 : JAVA,SPRING,MyBatis,HTML/CSS,<br /><br />
+                            言語 : JAVA,SPRING,MyBatis,<br/>HTML/CSS,<br /><br />
                             DB : MySql
                                         </Cell>
                                     </Grid></div>
