@@ -275,7 +275,7 @@ class Projects extends Component {
 
                             プロジェクト 期間 : 2016.9~2016.10<br /><br />
                             プロジェクト 内容 : スポーツサイト<br /><br />
-                            言語 : JAVA,SPRING,MyBatis,<br/>HTML/CSS,<br /><br />
+                            言語 : JAVA,SPRING,MyBatis<br/>HTML/CSS,<br /><br />
                             DB : MySql
                                         </Cell>
                                     </Grid></div>
@@ -319,18 +319,18 @@ class Projects extends Component {
                                             <h2>DOCOMO コンテンツ管理システム(CMS)</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '8%' }}></hr> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
                                             日本 東京 [DOCOMO]<br/><br/>
                                             <h4>プロジェクト期間</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '21%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
                                             2017.12~2018.3<br/><br/>
 
                                             <h4>プロジェクト内容＆役割</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '28%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             コンテンツ管理システムの運用に従う維持保守、テスト作業を担当<br/><br/>
 
                                             <h4>開発環境</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '11%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
                                             Window10　/　Tera Term
 
                                           </Cell>
@@ -364,17 +364,17 @@ class Projects extends Component {
                                             <h2>DENSO 車両通信モジュール(DCM)</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '8%' }}></hr> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
                                             日本 名古屋 [DENSO]<br/><br/>
                                             <h4>プロジェクト期間</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '21%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
                                             2018.4~2019.3<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '28%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             コンテンツ管理システムの運用に従う維持保守、テスト作業を担当<br/><br/>
 
                                             <h4>開発環境</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '11%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
                                             Window10　/　Tera Term
 
                                           </Cell>
@@ -409,17 +409,17 @@ class Projects extends Component {
                                             <h2>TOYOTA 連携システム</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '8%' }}></hr> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
                                             日本 名古屋 [TOYOTA]<br/><br/>
                                             <h4>プロジェクト期間</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '21%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
                                             2019.4~2019.9<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '28%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             トヨタ連携システム　検証＆改修＆維持保守 担当<br/><br/>
 
                                             <h4>開発環境</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '11%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
                                             Window10　／　Tera Term　／　Oracle
 
                                           </Cell>
@@ -454,17 +454,17 @@ class Projects extends Component {
                                             <h2>TOYOTA SYSTEMS KITORA FW</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '8%' }}></hr> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
                                             日本 名古屋 [TOYOTA SYSTEMS]<br/><br/>
                                             <h4>プロジェクト期間 </h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '21%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
                                             2019.10~2020.3<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '28%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             TOYOTA SYSTEMS KITORA FW 維持保守 担当<br/><br/>
 
                                             <h4>開発環境</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '11%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
                                             Window10　／　Tera Term　／　HTML　／　CSS
 
                                           </Cell>
@@ -498,17 +498,17 @@ class Projects extends Component {
                                             <h2>Open Sesame Tec 車両運行管理システム</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '8%' }}></hr> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
                                             日本 名古屋 [Open Sesame Tec]<br/><br/>
                                             <h4>プロジェクト期間 </h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '21%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
                                             2020.4~2020.9<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '28%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             車両運行管理システム開発 フロントエンド 担当<br/><br/>
 
                                             <h4>開発環境</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '11%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
                                             Window10　／　React　／　Materia UI
 
                                           </Cell>
@@ -537,17 +537,17 @@ class Projects extends Component {
                                             <h2>AIアノテーション学習データ管理システム</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '8%' }}></hr> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
                                             韓国 ソウル [Media Group 人と森]<br/><br/>
                                             <h4>プロジェクト期間 </h4>
-                                            <hr style={{ borderTop: '5px solid #395181', width: '21%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
                                             2020.12~現在<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '28%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             アノテーション管理システム　バックエンド ＆ フロントエンド 担当<br/><br/>
 
                                             <h4>開発環境</h4> 
-                                            <hr style={{ borderTop: '5px solid #395181', width: '11%' }}></hr>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
                                             Window10　／　React　／　SPRING BOOT　／　Maria DB　／　MyBatis 
 
                                           </Cell> 
