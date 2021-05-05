@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardMenu, IconButton, Button, CardText, Dialog } from 'react-mdl';
-import Port from './CSS/Portfolio.png';
-import Todo from './CSS/todo.png';
-import Semi from './CSS/semi.png';
-import FINAL from './CSS/FINAL.png';
-import SARAM from './CSS/5555.png';
-import Project1 from './CSS/project1/1.png'
-import Project2 from './CSS/project1/2.png'
-import Project3 from './CSS/project1/3.png'
-import Project4 from './CSS/project1/4.png'
-import Project5 from './CSS/project1/5.png'
-import Project6 from './CSS/project1/6.png'
-import Project7 from './CSS/project1/7.png'
-import Project8 from './CSS/project1/8.png'
-import Project11 from './CSS/project2/11.png'
-import Project12 from './CSS/project2/12.png'
-import Project13 from './CSS/project2/13.png'
-import Project14 from './CSS/project2/14.png'
+import Port from './CSS/Portfolio.jpeg';
+import Todo from './CSS/todo.jpeg';
+import Semi from './CSS/semi.jpeg';
+import FINAL from './CSS/FINAL.jpeg';
+import SARAM from './CSS/5555.jpeg';
+import Project1 from './CSS/project1/1.jpeg'
+import Project2 from './CSS/project1/2.jpeg'
+import Project3 from './CSS/project1/3.jpeg'
+import Project4 from './CSS/project1/4.jpeg'
+import Project5 from './CSS/project1/5.jpeg'
+import Project6 from './CSS/project1/6.jpeg'
+import Project7 from './CSS/project1/7.jpeg'
+import Project8 from './CSS/project1/8.jpeg'
+import Project11 from './CSS/project2/11.jpeg'
+import Project12 from './CSS/project2/12.jpeg'
+import Project13 from './CSS/project2/13.jpeg'
+import Project14 from './CSS/project2/14.jpeg'
 import SPRING from './CSS/img.jpeg'
 import SPRING1 from './CSS/springbook.jpeg'
 import JAVABOOK from './CSS/javabook.jpeg'
@@ -576,8 +576,8 @@ class Projects extends Component {
                                 React ポートフォリオ
                         </CardText>
                             <CardActions border>
-                                <Button a href="https://github.com/parkshhy/123" target="_blank">⚙️GIT HUB</Button>
-                                <Button a href="https://parkshhy.github.io/123/" target="_blank">🖥WEB PAGE</Button>
+                                <Button a href="https://github.com/parkshhy/main" target="_blank">⚙️GIT HUB</Button>
+                                <Button a href="https://parkshhy.github.io/main/" target="_blank">🖥WEB PAGE</Button>
                             </CardActions>
                         </Card>
 
