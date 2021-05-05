@@ -47,7 +47,7 @@ class Aboutme extends Component {
                     <h5>FW</h5>
                     <Skills
                    skills="⚒️SPRING Boot"
-                   progress={50} buffer={40}
+                   progress={60} buffer={40}
                    />
                     <Skills
                    skills="⚒️React"

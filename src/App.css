@@ -53,9 +53,9 @@ padding: 1em;
 .projects-grid {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 50px 50rem;
+  grid-template-rows: 50px 45rem;
   margin:center;
-  grid-gap: 200px;
+  grid-gap: 150px;
   text-align: center; 
   justify-content: center;
   padding: auto;
