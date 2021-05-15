@@ -539,7 +539,7 @@ class Projects extends Component {
                                     <Grid >
                                         <Cell className="modal" col={12} style={{textAlign:'left'}}>
 　
-                                            <h2>AIアノテーション学習データ管理システム</h2>
+                                            <h2>AIアノテーション管理システム開発</h2>
                                             <hr style={{ borderTop: '5px solid #395181'}}></hr>
                                             <h4>勤務先</h4>
                                             <hr style={{ borderTop: '5px solid #395181', width: '9%' }}></hr> 
