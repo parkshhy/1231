@@ -40,7 +40,7 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8} >
                         <h2>Education</h2>
                         <Education
-                            startYear="2017.3 "
+                            startYear="2007.3 "
                             endYear=" 2013.2"
                             schoolName="信韓(シンハン)大学校"
                             schoolDescription="国際観光経営学科"

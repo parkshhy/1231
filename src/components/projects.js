@@ -327,11 +327,12 @@ class Projects extends Component {
 
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
-                                            コンテンツ管理システムの運用に従う維持保守、テスト作業を担当<br/><br/>
+                                            コンテンツ管理システムの運用に従う維持保守、テスト業務担当<br/>
+                                            また仕様書改修作業も担当<br/><br/>
 
                                             <h4>開発環境</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
-                                            Window10　/　Tera Term
+                                            Window10　/　Tera Term　/　HTML
 
                                           </Cell>
 
@@ -371,7 +372,7 @@ class Projects extends Component {
                                             2018.4~2019.3<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
-                                            コンテンツ管理システムの運用に従う維持保守、テスト作業を担当<br/><br/>
+                                            トヨタ車両に搭載されるDCM基板にデータの書き込み作業やテスト、<br/>データの改修作業を担当<br/><br/>
 
                                             <h4>開発環境</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
@@ -416,7 +417,8 @@ class Projects extends Component {
                                             2019.4~2019.9<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
-                                            トヨタ連携システム　検証＆改修＆維持保守 担当<br/><br/>
+                                            主に連携システムを構成しているDBの改修作業を担当<br/>
+                                            機能フローのテスト作業も担当<br/><br/>
 
                                             <h4>開発環境</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
@@ -461,11 +463,13 @@ class Projects extends Component {
                                             2019.10~2020.3<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
-                                            TOYOTA SYSTEMS KITORA FW 維持保守 担当<br/><br/>
+                                            KITORA FWの維持保守、インスペクション作業を担当<br/>
+                                            また、FWを構成しているXML FILE、HTML、<br/>
+                                            JAVA改修作業を担当<br/><br/>
 
                                             <h4>開発環境</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
-                                            Window10　／　Tera Term　／　HTML　／　CSS
+                                            Window10　／　Tera Term　／　JAVA　／　HTML　／　 CSS
 
                                           </Cell>
 
@@ -505,7 +509,8 @@ class Projects extends Component {
                                             2020.4~2020.9<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
-                                            車両運行管理システム開発 フロントエンド 担当<br/><br/>
+                                            主にユーザー管理機能のフロントエンド担当<br/>
+                                            また基本設計、詳細設計、開発、テストを担当<br/><br/>
 
                                             <h4>開発環境</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
@@ -544,7 +549,9 @@ class Projects extends Component {
                                             2020.12~現在<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
-                                            アノテーション管理システム　バックエンド ＆ フロントエンド 担当<br/><br/>
+                                            主にユーザー管理機能、管理者管理機能の開発のバックエンド担当<br/>
+                                            また企画や基本設計、詳細設計、教務フローなど担当<br/>
+                                            ウェブパブリッシャーと連携して、フロント機能の開発も担当<br/><br/>
 
                                             <h4>開発環境</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '12%' }}></hr>
