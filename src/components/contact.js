@@ -27,7 +27,7 @@ class Contact extends Component {
                             <List>
                                 <ListItem style={{marginTop:50}}>
                                     <ListItemContent icon="person" style={{fontSize:'30px',marginLeft:150}}> 
-                                    010-2197-1370</ListItemContent>
+                                    010-2197-1370 </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent icon="person" style={{fontSize:'30px',marginLeft:150}}> 
