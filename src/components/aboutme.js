@@ -22,7 +22,7 @@ class Aboutme extends Component {
                     <h5>Frontend</h5>
                    <Skills
                    skills="💻JavaScript"
-                   progress={70} buffer={30}
+                   progress={60} buffer={40}
                    />
                     <Skills
                    skills="💻Node JS"
@@ -41,13 +41,21 @@ class Aboutme extends Component {
                    <h5>Backend</h5>
                     <Skills
                    skills="⌨️JAVA"
-                   progress={60} buffer={40}
+                   progress={75} buffer={25}
                    />
                    <hr style={{ borderTop: '3px solid #395181' }}></hr>
                     <h5>FW</h5>
                     <Skills
                    skills="⚒️SPRING Boot"
-                   progress={60} buffer={40}
+                   progress={70} buffer={30}
+                   />
+                    <Skills
+                   skills="⚒️MyBatis"
+                   progress={70} buffer={30}
+                   />
+                    <Skills
+                   skills="⚒️JPA"
+                   progress={70} buffer={30}
                    />
                     <Skills
                    skills="⚒️React"
@@ -61,15 +69,15 @@ class Aboutme extends Component {
                    <h5>DB</h5>
                    <Skills
                    skills="📊Oracle"
-                   progress={65}
+                   progress={70}
                    />
                     <Skills
                    skills="📊MySql"
-                   progress={65}
+                   progress={70}
                    />
                     <Skills
                    skills="📊MariaDB"
-                   progress={65}
+                   progress={70}
                    /> 
                    <hr style={{ borderTop: '3px solid #395181' }}></hr>
 

@@ -28,6 +28,10 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #174DBA', width: '50%' }} />
                         <h5>🏠Address</h5>
                         <p>韓国　ソウル特別市　ドボン区</p>
+                        <h5>🏠GitHub</h5>
+                        <p>https://github.com/parkshhy</p>
+                        <h5>🏠Blog</h5>
+                        <p>https://blog.naver.com/rainbluebird</p>
                         <h5>📲Phone</h5>
                         <p>010-2197-1370</p>
                         <h5>📩E-mail</h5>
@@ -105,9 +109,15 @@ class Resume extends Component {
                    />
                     <Experience
                        startYear="2020.12 "
-                       endYear=" 現在"
+                       endYear=" 2021.11"
                        jobName="韓国 MEDIAGROUP人と森"
                        jobDescription=" MEDIA GROUP 人と森 勤務"
+                   />
+                   <Experience
+                       startYear="2022.2 "
+                       endYear="現在"
+                       jobName="ーー"
+                       jobDescription="ーー"
                    />
 
                    <hr style={{ borderTop: '3px solid #D8EFE6' }}></hr>

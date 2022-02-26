@@ -21,6 +21,20 @@ import SPRING from './CSS/img.jpeg'
 import SPRING1 from './CSS/springbook.jpeg'
 import JAVABOOK from './CSS/javabook.jpeg'
 import ReactBook from './CSS/react.jpeg'
+import ORACLE from './CSS/oracle.jpeg'
+import RESTAPI from './CSS/RESTAPI.jpeg'
+import JPA from './CSS/JPA.jpeg'
+import BLOG from './CSS/project3/4.png'
+import Project15 from './CSS/project3/1.png'
+import Project16 from './CSS/project3/2.png'
+import Project17 from './CSS/project3/3.png'
+import Project18 from './CSS/project3/4.png'
+import Project19 from './CSS/project3/5.png'
+import Project20 from './CSS/project3/6.png'
+
+
+
+
 
 class Projects extends Component {
     constructor(props) {
@@ -44,6 +58,8 @@ class Projects extends Component {
         this.handleCloseDialog7 = this.handleCloseDialog7.bind(this);
         this.handleOpenDialog8 = this.handleOpenDialog8.bind(this);
         this.handleCloseDialog8 = this.handleCloseDialog8.bind(this);
+        this.handleOpenDialog9 = this.handleOpenDialog9.bind(this);
+        this.handleCloseDialog9 = this.handleCloseDialog9.bind(this);
     }
 
     state = {
@@ -149,6 +165,20 @@ class Projects extends Component {
             openDialog8: false
         });
     }
+
+    handleOpenDialog9() {
+        this.setState({
+            openDialog9: true
+        });
+    }
+
+    handleCloseDialog9() {
+        this.setState({
+            openDialog9: false
+        });
+    }
+
+
 
     toggleCategories() {
         if (this.state.activeTab === 1) {
@@ -438,7 +468,7 @@ class Projects extends Component {
                         <Card className="box" shadow={5} style={{ minWidh: '450', margin: 'auto' }}>
                             <CardTitle style={{
                                 color: 'black', height: '176px',
-                                background: 'url(https://d3lckkmmuve1sw.cloudfront.net/attachments/0dfea67a48e300a717950687abd40afaa0b15517/store/c91aef7a3041e862f6beb3c2d6a743287364638ce00bfc8937c83c912db2/80208231.png) center / cover'
+                                background: 'url(https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/gdhlcwfbuuezs4g7tpb3) center / cover'
                             }}>
 
                             </CardTitle>
@@ -526,6 +556,9 @@ class Projects extends Component {
                             </CardMenu>
                         </Card>
 
+
+                        {/* AI project */}        
+
                         <Card className="box" shadow={5} style={{ minWidh: '450', margin: 'auto' }}>
                             <img src={SARAM} alt="kannrisystem" style={{ height: '178px' }} />
                             <CardText>
@@ -546,7 +579,7 @@ class Projects extends Component {
                                             韓国 ソウル [Media Group 人と森]<br/><br/>
                                             <h4>プロジェクト期間 </h4>
                                             <hr style={{ borderTop: '5px solid #395181', width: '23%' }}></hr>
-                                            2020.12~現在<br/><br/>
+                                            2020.12~2021.5<br/><br/>
                                             <h4>プロジェクト内容＆役割</h4> 
                                             <hr style={{ borderTop: '5px solid #395181', width: '31%' }}></hr>
                                             主にユーザー管理機能、管理者管理機能の開発のバックエンド担当<br/>
@@ -566,6 +599,89 @@ class Projects extends Component {
                                 <IconButton name="share" />
                             </CardMenu>
                         </Card>
+
+                        
+                        {/* blog project */}
+                        
+                        
+                        <Card className="box" shadow={5} style={{ minWidh: '450', margin: 'auto' }}>
+
+                        <img src={BLOG} alt="kannrisystem" style={{ height: '178px' }} />
+
+                        <CardText>
+                            会社 blog 管理システム
+                        </CardText>
+
+                        <Button colored onClick={this.handleOpenDialog9} raised ripple target="1">詳細</Button>
+                        <Dialog open={this.state.openDialog9} onClick={this.handleCloseDialog9} keyType="1" style={{
+                            color: 'black', height: '80%', margin: 'auto', width: '60%'
+                        }}>
+                            <div>
+                                <Grid >
+                                    <Cell className="modal" col={7} style={{textAlign:'left'}}>
+
+                                        <h2>会社 blog 管理システム</h2>
+                                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+
+                                        <img src={Project15} alt="project1" style={{ width: '100%' }} />
+                                        <br/><br/>
+                        DB構造図
+                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+
+                                        <img src={Project16} alt="project1" style={{ width: '100%' }} />
+                                        <br/><br/>
+                        USER 管理
+                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+
+
+                                        <img src={Project17} alt="project1" style={{ width: '100%' }} />
+                                        <br/><br/>
+                        WRITE
+                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+
+                                        <img src={Project18} alt="project1" style={{ width: '100%' }} />
+                                        <br/><br/>
+                        MAIN
+                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+
+
+                                        <img src={Project19} alt="project1" style={{ width: '100%' }} />
+                                        <br/><br/>
+                        MAIN　LOGIN
+                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+                                        <img src={Project20} alt="project1" style={{ width: '100%' }} />
+                                        <br/><br/>
+                        USER UPDATE
+                        <hr style={{ borderTop: '3px solid #395181' }}></hr>
+
+                                    </Cell>
+
+                                    <Cell className="modal" col={5} style={{textAlign:'left'}}>
+                                    
+                                            <h4>勤務先</h4>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '30%' }}></hr> 
+                                            韓国 ソウル [Media Group 人と森]<br/><br/>
+                                            <h4>プロジェクト期間 </h4>
+                                            <hr style={{ borderTop: '5px solid #395181', width: '50%' }}></hr>
+                                            2021.6~2021.11<br/><br/>
+                                            <h4>プロジェクト内容＆役割</h4> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '60%' }}></hr>
+                                            主にユーザー管理機能、管理者管理機能の開発のバックエンド担当<br/>
+                                            また企画や基本設計、詳細設計、教務フローなど担当<br/>
+                                            ウェブパブリッシャーと連携して、フロント機能の開発も<br/>担当<br/><br/>
+
+                                            <h4>開発環境</h4> 
+                                            <hr style={{ borderTop: '5px solid #395181', width: '30%' }}></hr>
+                                            Window10　／　React　／　SPRING BOOT　＋　REST API　／　Maria DB　／　MyBatis & JPA
+
+                        </Cell>
+                                </Grid></div>
+                        </Dialog>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                        </Card>
+
 
 
                     </div></div >
@@ -655,6 +771,27 @@ class Projects extends Component {
                             </CardText>
                         </Card>  
 
+                        <Card className="box" shadow={5} style={{ minWidh: '450', margin: 'auto' }}>
+                            <img src={ORACLE} alt="spring" style={{ width: '56%',margin: 'auto'  }} />
+                            <CardText>
+                                ORACLE
+                            </CardText>
+                        </Card>  
+
+                        <Card className="box" shadow={5} style={{ minWidh: '450', margin: 'auto' }}>
+                            <img src={RESTAPI} alt="spring" style={{ width: '48%',margin: 'auto'  }} />
+                            <CardText>
+                                SPRING boot + REST API + MYBATIS <br/> MySQL
+                            </CardText>
+                        </Card> 
+
+                        <Card className="box" shadow={5} style={{ minWidh: '450', margin: 'auto' }}>
+                            <img src={JPA} alt="spring" style={{ width: '56%',margin: 'auto'  }} />
+                            <CardText>
+                                SPRING boot + JPA
+                            </CardText>
+                        </Card> 
+
                     </div>
                 </div>
 
@@ -669,10 +806,10 @@ class Projects extends Component {
             <div>
                 <Tabs activeTab={this.state.activeTab}
                     onChange={(tabId => this.setState({ activeTab: tabId }))} ripple>
-                    <Tab><strong>↳個人勉強</strong></Tab>
-                    <Tab><strong>↳教育機関 プロジェクト</strong></Tab>
-                    <Tab><strong>↳個人プロジェクト</strong></Tab>
-                    <Tab><strong>↳経歴事項</strong></Tab>
+                    <Tab><strong>個人勉強</strong></Tab>
+                    <Tab><strong>教育機関 プロジェクト</strong></Tab>
+                    <Tab><strong>個人プロジェクト</strong></Tab>
+                    <Tab><strong>経歴事項</strong></Tab>
                 </Tabs>
                 <Grid>
                     <Cell col={12}>
